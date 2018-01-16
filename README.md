@@ -129,6 +129,8 @@ Route::resource('posts', 'PostsController');
 Route::resource('posts.translations', 'TranslationsController');
 ```
 
+The store method at the TranslationsController should look like the following:
+
 ```php
 // app/Http/Controllers/TranslationsController
 
